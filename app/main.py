@@ -25,11 +25,3 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
         dog_human_age += dog // rules_dog[2]
 
     return [cat_human_age, dog_human_age]
-
-print(get_human_age(0, 0))      # [0, 0]
-print(get_human_age(14, 14))    # [0, 0]
-print(get_human_age(15, 15))    # [1, 1]
-print(get_human_age(23, 23))    # [1, 1]
-print(get_human_age(24, 24))    # [2, 2]
-print(get_human_age(28, 28))    # [3, 2]
-print(get_human_age(100, 100))  # [21, 17]
