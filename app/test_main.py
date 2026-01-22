@@ -12,7 +12,9 @@ import pytest
         (24, 24, [2, 2]),
         (27, 27, [2, 2]),
         (28, 28, [3, 2]),
-        (100, 100, [21, 17])
+        (100, 100, [21, 17]),
+        (-15, -15, [0, 0]),
+        (15.1, 15.1, [1, 1]),
     ],
     ids=[
         "accepted values [0, 0] == [0, 0]",
@@ -22,7 +24,9 @@ import pytest
         "accepted values [24, 24] == [2, 2]",
         "accepted values [27, 27] == [2, 2]",
         "accepted values [28, 28] == [3, 2]",
-        "accepted values [100, 100] == [21, 17]"
+        "accepted values [100, 100] == [21, 17]",
+        "accepted values [-15, -15] == [0, 0]",
+        "accepted values [15,1, 15,1] == [1, 1]",
 
     ]
 
